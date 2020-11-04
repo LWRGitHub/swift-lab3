@@ -107,7 +107,7 @@ func rotateElementsLeft(arr: [Int])-> [Int]{
     var loop_num = 0
     var answer : [Int] = []
     while loop_num < arr.count {
-        answer.append(arr[arr.count - loop_num])
+        answer.append(arr[arr.count - loop_num - 1])
         loop_num += 1
     }
     return answer
